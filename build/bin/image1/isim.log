@@ -1,0 +1,233 @@
+ISim log file
+Running: tester.exe -intstyle ise -tclbatch ..\..\..\scripts\gui.tcl -gui 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 10 ms
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+test image1 - grayscale transformation done in 16386 cycles
+--------------------------------------------------------------------------------
+	error at ( 4,  9), found R:  0 G:121 B:  0
+	                expected R:  0 G:152 B:  0
+	error at ( 8, 42), found R:  0 G: 67 B:  0
+	                expected R:  0 G: 47 B:  0
+	error at (18, 41), found R:  0 G:  5 B:  0
+	                expected R:  0 G:107 B:  0
+	error at (20, 19), found R:  0 G:130 B:  0
+	                expected R:  0 G:184 B:  0
+	error at (23, 42), found R:  0 G: 27 B:  0
+	                expected R:  0 G:110 B:  0
+	error at (24, 40), found R:  0 G:111 B:  0
+	                expected R:  0 G: 88 B:  0
+	error at (31, 29), found R:  0 G: 12 B:  0
+	                expected R:  0 G: 83 B:  0
+	error at (33, 39), found R:  0 G:169 B:  0
+	                expected R:  0 G:141 B:  0
+	error at (35, 25), found R:  0 G: 31 B:  0
+	                expected R:  0 G: 44 B:  0
+	error at (49, 49), found R:  0 G:178 B:  0
+	                expected R:  0 G:151 B:  0
+	error at (49, 51), found R:  0 G:199 B:  0
+	                expected R:  0 G:118 B:  0
+	error at (50, 16), found R:  0 G: 68 B:  0
+	                expected R:  0 G:160 B:  0
+	error at (51,  1), found R:  0 G:234 B:  0
+	                expected R:  0 G:213 B:  0
+	error at (56, 15), found R:  0 G:119 B:  0
+	                expected R:  0 G: 77 B:  0
+	error at (57,  1), found R:  0 G: 68 B:  0
+	                expected R:  0 G: 97 B:  0
+test image1 - compress transformation done in 33793 cycles
+--------------------------------------------------------------------------------
+	error at ( 0,  2), found R:  0 G:103 B:  0
+	                expected R:  0 G:157 B:  0
+	error at ( 0,  4), found R:  0 G:167 B:  0
+	                expected R:  0 G:116 B:  0
+	error at ( 0,  5), found R:  0 G:113 B:  0
+	                expected R:  0 G:116 B:  0
+	error at ( 0,  6), found R:  0 G:167 B:  0
+	                expected R:  0 G:116 B:  0
+	error at ( 0,  7), found R:  0 G:113 B:  0
+	                expected R:  0 G:116 B:  0
+	error at ( 0,  8), found R:  0 G:161 B:  0
+	                expected R:  0 G:114 B:  0
+	error at ( 0,  9), found R:  0 G:117 B:  0
+	                expected R:  0 G:152 B:  0
+	error at ( 0, 10), found R:  0 G:161 B:  0
+	                expected R:  0 G:114 B:  0
+	error at ( 0, 11), found R:  0 G:117 B:  0
+	                expected R:  0 G:114 B:  0
+	error at ( 0, 12), found R:  0 G:157 B:  0
+	                expected R:  0 G: 92 B:  0
+	error at ( 0, 13), found R:  0 G: 91 B:  0
+	                expected R:  0 G:156 B:  0
+	error at ( 0, 14), found R:  0 G:157 B:  0
+	                expected R:  0 G: 92 B:  0
+	error at ( 0, 15), found R:  0 G: 91 B:  0
+	                expected R:  0 G:156 B:  0
+	error at ( 0, 16), found R:  0 G: 79 B:  0
+	                expected R:  0 G:139 B:  0
+	error at ( 0, 17), found R:  0 G:139 B:  0
+	                expected R:  0 G: 81 B:  0
+	error at ( 0, 18), found R:  0 G: 79 B:  0
+	                expected R:  0 G:139 B:  0
+	error at ( 0, 20), found R:  0 G: 96 B:  0
+	                expected R:  0 G: 99 B:  0
+	error at ( 0, 21), found R:  0 G: 96 B:  0
+	                expected R:  0 G:153 B:  0
+	error at ( 0, 22), found R:  0 G:154 B:  0
+	                expected R:  0 G:153 B:  0
+	error at ( 0, 23), found R:  0 G:154 B:  0
+	                expected R:  0 G: 99 B:  0
+	error at ( 0, 28), found R:  0 G: 75 B:  0
+	                expected R:  0 G:152 B:  0
+	error at ( 0, 29), found R:  0 G:151 B:  0
+	                expected R:  0 G:152 B:  0
+	error at ( 0, 30), found R:  0 G:151 B:  0
+	                expected R:  0 G: 78 B:  0
+	error at ( 0, 31), found R:  0 G: 75 B:  0
+	                expected R:  0 G: 78 B:  0
+	error at ( 0, 32), found R:  0 G:148 B:  0
+	                expected R:  0 G:146 B:  0
+	error at ( 0, 33), found R:  0 G:148 B:  0
+	                expected R:  0 G: 87 B:  0
+	error at ( 0, 34), found R:  0 G: 87 B:  0
+	                expected R:  0 G:146 B:  0
+	error at ( 0, 35), found R:  0 G:148 B:  0
+	                expected R:  0 G: 87 B:  0
+	error at ( 0, 36), found R:  0 G:160 B:  0
+	                expected R:  0 G:163 B:  0
+	error at ( 0, 37), found R:  0 G:160 B:  0
+	                expected R:  0 G:105 B:  0
+	error at ( 0, 38), found R:  0 G:104 B:  0
+	                expected R:  0 G:163 B:  0
+	error at ( 0, 39), found R:  0 G:160 B:  0
+	                expected R:  0 G:163 B:  0
+	error at ( 0, 40), found R:  0 G: 78 B:  0
+	                expected R:  0 G:141 B:  0
+	.
+	.
+	.
+test image1 - encode
+	timeout after 204800 cycles
+Stopped at time : 2631775 ns : File "C:/Users/Daniel/Proiecte/Tema 2/build/bin/tester/tester.v" Line 352
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 10 ms
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+test image1 - grayscale transformation done in 16386 cycles
+--------------------------------------------------------------------------------
+	error at ( 4,  9), found R:  0 G:121 B:  0
+	                expected R:  0 G:152 B:  0
+	error at ( 8, 42), found R:  0 G: 67 B:  0
+	                expected R:  0 G: 47 B:  0
+	error at (18, 41), found R:  0 G:  5 B:  0
+	                expected R:  0 G:107 B:  0
+	error at (20, 19), found R:  0 G:130 B:  0
+	                expected R:  0 G:184 B:  0
+	error at (23, 42), found R:  0 G: 27 B:  0
+	                expected R:  0 G:110 B:  0
+	error at (24, 40), found R:  0 G:111 B:  0
+	                expected R:  0 G: 88 B:  0
+	error at (31, 29), found R:  0 G: 12 B:  0
+	                expected R:  0 G: 83 B:  0
+	error at (33, 39), found R:  0 G:169 B:  0
+	                expected R:  0 G:141 B:  0
+	error at (35, 25), found R:  0 G: 31 B:  0
+	                expected R:  0 G: 44 B:  0
+	error at (49, 49), found R:  0 G:178 B:  0
+	                expected R:  0 G:151 B:  0
+	error at (49, 51), found R:  0 G:199 B:  0
+	                expected R:  0 G:118 B:  0
+	error at (50, 16), found R:  0 G: 68 B:  0
+	                expected R:  0 G:160 B:  0
+	error at (51,  1), found R:  0 G:234 B:  0
+	                expected R:  0 G:213 B:  0
+	error at (56, 15), found R:  0 G:119 B:  0
+	                expected R:  0 G: 77 B:  0
+	error at (57,  1), found R:  0 G: 68 B:  0
+	                expected R:  0 G: 97 B:  0
+test image1 - compress transformation done in 33793 cycles
+--------------------------------------------------------------------------------
+	error at ( 0,  2), found R:  0 G:103 B:  0
+	                expected R:  0 G:157 B:  0
+	error at ( 0,  4), found R:  0 G:167 B:  0
+	                expected R:  0 G:116 B:  0
+	error at ( 0,  5), found R:  0 G:113 B:  0
+	                expected R:  0 G:116 B:  0
+	error at ( 0,  6), found R:  0 G:167 B:  0
+	                expected R:  0 G:116 B:  0
+	error at ( 0,  7), found R:  0 G:113 B:  0
+	                expected R:  0 G:116 B:  0
+	error at ( 0,  8), found R:  0 G:161 B:  0
+	                expected R:  0 G:114 B:  0
+	error at ( 0,  9), found R:  0 G:117 B:  0
+	                expected R:  0 G:152 B:  0
+	error at ( 0, 10), found R:  0 G:161 B:  0
+	                expected R:  0 G:114 B:  0
+	error at ( 0, 11), found R:  0 G:117 B:  0
+	                expected R:  0 G:114 B:  0
+	error at ( 0, 12), found R:  0 G:157 B:  0
+	                expected R:  0 G: 92 B:  0
+	error at ( 0, 13), found R:  0 G: 91 B:  0
+	                expected R:  0 G:156 B:  0
+	error at ( 0, 14), found R:  0 G:157 B:  0
+	                expected R:  0 G: 92 B:  0
+	error at ( 0, 15), found R:  0 G: 91 B:  0
+	                expected R:  0 G:156 B:  0
+	error at ( 0, 16), found R:  0 G: 79 B:  0
+	                expected R:  0 G:139 B:  0
+	error at ( 0, 17), found R:  0 G:139 B:  0
+	                expected R:  0 G: 81 B:  0
+	error at ( 0, 18), found R:  0 G: 79 B:  0
+	                expected R:  0 G:139 B:  0
+	error at ( 0, 20), found R:  0 G: 96 B:  0
+	                expected R:  0 G: 99 B:  0
+	error at ( 0, 21), found R:  0 G: 96 B:  0
+	                expected R:  0 G:153 B:  0
+	error at ( 0, 22), found R:  0 G:154 B:  0
+	                expected R:  0 G:153 B:  0
+	error at ( 0, 23), found R:  0 G:154 B:  0
+	                expected R:  0 G: 99 B:  0
+	error at ( 0, 28), found R:  0 G: 75 B:  0
+	                expected R:  0 G:152 B:  0
+	error at ( 0, 29), found R:  0 G:151 B:  0
+	                expected R:  0 G:152 B:  0
+	error at ( 0, 30), found R:  0 G:151 B:  0
+	                expected R:  0 G: 78 B:  0
+	error at ( 0, 31), found R:  0 G: 75 B:  0
+	                expected R:  0 G: 78 B:  0
+	error at ( 0, 32), found R:  0 G:148 B:  0
+	                expected R:  0 G:146 B:  0
+	error at ( 0, 33), found R:  0 G:148 B:  0
+	                expected R:  0 G: 87 B:  0
+	error at ( 0, 34), found R:  0 G: 87 B:  0
+	                expected R:  0 G:146 B:  0
+	error at ( 0, 35), found R:  0 G:148 B:  0
+	                expected R:  0 G: 87 B:  0
+	error at ( 0, 36), found R:  0 G:160 B:  0
+	                expected R:  0 G:163 B:  0
+	error at ( 0, 37), found R:  0 G:160 B:  0
+	                expected R:  0 G:105 B:  0
+	error at ( 0, 38), found R:  0 G:104 B:  0
+	                expected R:  0 G:163 B:  0
+	error at ( 0, 39), found R:  0 G:160 B:  0
+	                expected R:  0 G:163 B:  0
+	error at ( 0, 40), found R:  0 G: 78 B:  0
+	                expected R:  0 G:141 B:  0
+	.
+	.
+	.
+test image1 - encode
+	timeout after 204800 cycles
+Stopped at time : 2631775 ns : File "C:/Users/Daniel/Proiecte/Tema 2/build/bin/tester/tester.v" Line 352

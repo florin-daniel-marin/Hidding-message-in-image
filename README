@@ -1,0 +1,14 @@
+Marin Florin_Daniel 333AB
+AC_Tema 2
+
+Am implementat task 1 si task 2, doar ca in versiunea offline a checker-ului nu imi ia niciun test, la nici-un task,
+chiar daca am verificat pe xilinx si ambele par sa mearga (conversia in grayscale si comprimarea folosind AMBTC).
+
+FSM-ul meu are 20 de stari, l-am implementat secvential si am folosit atribuire non blocanta, tipic structurii secventiale,
+de aceea automatul are asa multe stari, care intr-o structura combinationala s-ar reduce le mult mai putine.
+De exemplu cand schimbam valoarea pentru o variabila, foloseam variabila noua in alta stare, pentru ca in aceasi stare, n-ar fi fost vizibila modificarea.
+Starile sunt implementate secvential, starile _wait si _loop sunt folositre in locul lui for sau while.
+Initial citesc pixel cu pixel toata matricea, pentru a o converti in gri. Apoi citesc cate un block de 4x4 in read_block,
+il folosesc pentru compresie, iar in starea block_loop se inchide circuitul de citiri block cu block.
+La final toate cele 3 semnale sunt active, chiar daca ultimul task nu este rezolvat.
+Citirea se face de sus in jos, prima coloana, apoi a doua, etc.
